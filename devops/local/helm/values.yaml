@@ -60,8 +60,8 @@ service:
   employee: 
     name: employee
     type: NodePort
-    port: 8069
-    targetPort: 8069
+    port: 8071
+    targetPort: 8071
 
 
 deployment:

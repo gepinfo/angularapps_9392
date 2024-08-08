@@ -81,7 +81,7 @@ spec:
           image: {{ .Values.deployment.employee.image }}
           ports:
             - name: http-port
-              containerPort: 8069
+              containerPort: 8071
           env:
             - name: {{ .Values.app.prefix }}-app-db
               value: {{ .Values.app.prefix }}-app-db

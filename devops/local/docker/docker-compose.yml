@@ -272,7 +272,7 @@ services:
     image: employee-9392
     container_name: employee-9392
     ports: 
-      - 8069:8069
+      - 8071:8071
     env_file: .env
     depends_on:
       - mongo

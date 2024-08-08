@@ -45,4 +45,4 @@ spec:
               value: "http://{{ .Values.app.prefix }}-app.{{ .Values.app.namespace }}.svc.cluster.local:8069"
 
             - name: EMPLOYEEURL
-              value: "http://{{ .Values.app.prefix }}-app.{{ .Values.app.namespace }}.svc.cluster.local:8069"
+              value: "http://{{ .Values.app.prefix }}-app.{{ .Values.app.namespace }}.svc.cluster.local:8071"
